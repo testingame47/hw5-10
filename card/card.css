@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(248, 248, 178);
+}
+.card {
+    width: 800px;
+    height: 800px;
+    background-color: azure;
+    position: relative;
+    border-radius: 25px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px 5px rgb(107, 105, 105);
+}
+img
+ {
+    width: 300px;
+    height: 400px;
+    margin: 50px 0;
+}
+p {
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.monster {
+    width: 100%;
+    height: 75%;
+    background:  rgb(160, 243, 243);
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.hide {
+    position: absolute;
+    height: 600px;
+    width: 800px;  
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+  
+}
+.monster:hover > .hide{
+    z-index: 0;
+    background: #506367;
+    color: white;
+    opacity: 70%;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+.triangle {
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 80px solid black;
+    border-top-color: rgb(160, 243, 243);
+}
+.foundation {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

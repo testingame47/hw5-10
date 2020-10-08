@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.memorycard {
+    width: 800px;
+    height: 850px;
+    background: rgb(180, 144, 76);
+    position: relative;
+    margin: 0 auto;
+}
+img {
+    width: 230px;
+    height: 270px; 
+    margin-top: 11px; 
+}
+.frame {
+    width: 250px;
+    height: 320px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+div > p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.london {
+    position: absolute;
+    top: 112px;
+    left: 235px;
+    z-index: 0;
+    transform: rotate(-2deg);
+}
+.berlin {
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    z-index: 1;
+    transform: rotate(-4deg);
+}
+.LA {
+    position: absolute;
+    top: 330px;
+    left: 165px;
+    z-index: 2;
+    transform: rotate(-4deg);
+}
+.venice {
+    position: absolute;
+    top: 234px;
+    left: 385px;
+    transform: rotate(5deg);
+    z-index: 3;
+}
+.london:hover,
+.berlin:hover,
+.LA:hover,
+.venice:hover {
+    z-index: 4;
+}
+
+
+
